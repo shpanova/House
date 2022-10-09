@@ -1,0 +1,47 @@
+nav{
+  background: white;
+  width: 320px;
+  position: fixed;
+  top: 45px;
+  left: 10px;
+  padding: 16px;
+  box-sizing: border-box;
+  opacity: 0.1;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+  height: 92vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  padding-bottom: 8px;
+}
+nav:hover {
+  opacity: 1;
+  transition: all 1s ease;
+}
+nav h4{
+  text-align:left;
+  margin-bottom: 8px;
+}
+nav p{
+  margin: 0px;
+  font-weight: bold;
+  font-size: 16px !important;
+  word-break: break-word;
+}
+nav a{
+  text-decoration: none;
+  font-size: 16px !important;
+  padding-bottom: 2px;
+  word-break: break-word;
+  padding-left: 2px;
+}
+
+nav li{
+  margin: 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 5px;
+  text-decoration: none;
+}
